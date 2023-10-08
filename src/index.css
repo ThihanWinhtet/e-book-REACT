@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Roboto";
+}
+
+/* nav */
+.nav {
+  background-color: rgb(214, 219, 219);
+  padding: 1rem;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* welcom */
+.welcome {
+  text-align: center;
+  margin: 2.5rem 1rem;
+}
+.welcomeBTN{
+  margin-top: 1rem;
+}
+.welcomeBTN button {
+  width: 200px;
+  margin: .5rem;
+}
+@media screen and (min-width : 768px) {
+  .carousel{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+@font-face {
+  font-family: Roboto;
+  src: url(../src/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
